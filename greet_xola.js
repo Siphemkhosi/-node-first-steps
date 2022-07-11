@@ -6,6 +6,7 @@ var greet = require('./greet');
 
 // console.log(styledMessage)
 figlet(greet("xola"), function(err, data){
+    "use strict";
 if(err){
 // console.log("something went wrong...");
 console.dir(err)
